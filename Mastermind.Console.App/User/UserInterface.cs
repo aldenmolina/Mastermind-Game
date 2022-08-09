@@ -5,6 +5,7 @@
         public static void WelcomeBanner()
         {
             System.Console.WriteLine("Welcome to Mastermind Console App Game!");
+            System.Console.WriteLine("Break the code to win the game!");
             System.Console.WriteLine("");
             System.Console.WriteLine("Press any key to start the game.");
             System.Console.ReadKey(true);
@@ -13,7 +14,7 @@
 
         public static void GameRules()
         {
-            System.Console.WriteLine("Rules.");
+            System.Console.WriteLine("Rules:");
             System.Console.WriteLine("Answer combination has been generated.");
             System.Console.WriteLine("The combination consists of 4 digits. Each digit is a number between 1 through 6. (ex. 1111 or 6666)");
             System.Console.WriteLine("A plus (+) sign is printed for every digit that is correct and in the right position.");
