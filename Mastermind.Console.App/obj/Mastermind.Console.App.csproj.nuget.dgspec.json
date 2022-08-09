@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind.Console.App\\Mastermind.Console.App\\Mastermind.Console.App.csproj": {}
+    "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind-Game\\Mastermind.Console.App\\Mastermind.Console.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind.Console.App\\Mastermind.Console.App\\Mastermind.Console.App.csproj": {
+    "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind-Game\\Mastermind.Console.App\\Mastermind.Console.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind.Console.App\\Mastermind.Console.App\\Mastermind.Console.App.csproj",
+        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind-Game\\Mastermind.Console.App\\Mastermind.Console.App.csproj",
         "projectName": "Mastermind.Console.App",
-        "projectPath": "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind.Console.App\\Mastermind.Console.App\\Mastermind.Console.App.csproj",
+        "projectPath": "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind-Game\\Mastermind.Console.App\\Mastermind.Console.App.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind.Console.App\\Mastermind.Console.App\\obj\\",
+        "outputPath": "C:\\Users\\Owner\\Desktop\\Coding\\Mastermind-Game\\Mastermind.Console.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
