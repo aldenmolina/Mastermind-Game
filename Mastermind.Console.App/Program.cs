@@ -15,6 +15,7 @@ for (var i = 1; i <= Constants.TotalAttempts; i++)
     var userInput = string.Empty;
     var isValidInput = false;
 
+    // Validate user input
     do
     {
         userInput = UserInterface.ReadUserInput();
@@ -28,6 +29,7 @@ for (var i = 1; i <= Constants.TotalAttempts; i++)
     var copyAnswer = new char[Constants.ArrayLength];
     var copyInput = new char[Constants.ArrayLength];
 
+    // Check for all correct digit in correct position
     for (var j = 0; j < Constants.ArrayLength; j++)
     {
         if (inputArray[j] == answer[j])
@@ -43,6 +45,7 @@ for (var i = 1; i <= Constants.TotalAttempts; i++)
         }
     }
 
+    // Check for all correct digit in wrong position
     for (var j = 0; j < Constants.ArrayLength; j++)
     {
         if (copyInput[j] == default(char))
@@ -55,6 +58,7 @@ for (var i = 1; i <= Constants.TotalAttempts; i++)
         }
     }
 
+    // Check if player has won at end of each attempt
     if (Commands.CheckAnswer(inputArray, answer))
     {
         UserInterface.Winner();
